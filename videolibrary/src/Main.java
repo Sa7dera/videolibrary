@@ -50,7 +50,12 @@ class VideoLibrary {
         }
         System.out.println("wyszukiwanie na "+ letter + " " + filteredmovies);
     }
+    void WelcomeMessage(){
+        System.out.println("ELO");
+    }
+
 }
+
 
 
 
@@ -59,6 +64,7 @@ public class Main {
     public static void main(String[] args) {
 
     VideoLibrary library = new VideoLibrary();
+    library.WelcomeMessage();
     library.addMovie("olek mowi halo" );
     library.addMovie("olek na wczasach");
     library.addMovie("olek na jajku");
